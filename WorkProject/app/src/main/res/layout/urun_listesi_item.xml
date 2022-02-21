@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:elevation="3dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/urun_item_tasarim"
+    android:id="@+id/item_c"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/urun_resimimg"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:src="@drawable/arenlogo"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/urun_basligiitxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ürünün adı"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_weight="3"
+                android:textColor="@color/thema_blue"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:id="@+id/urun_fiyatitxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XX ₺"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:textColor="@color/thema_blue"
+                android:paddingStart="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:paddingTop="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/sil"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/remove"
+                    android:scaleType="centerInside"
+                    android:layout_marginStart="20dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/urunekle"
+        android:icon="@drawable/box"
+        android:title="Ürün Ekle"
+        />
+    <item android:id="@+id/urunList"
+        android:icon="@drawable/fiyat"
+        android:title="Ürünler"/>
+    <item android:id="@+id/oneri"
+        android:icon="@drawable/oneri"
+        android:title="Şikayet/Öneri(ler)"/>
+
+    <item android:id="@+id/iletisim"
+        android:icon="@drawable/iletisim"
+        android:title="İletişim"/>
+
+    <item android:id="@+id/hakkinda"
+        android:icon="@drawable/hakkimda"
+        android:title="Hakkımızda"/>
+</menu>

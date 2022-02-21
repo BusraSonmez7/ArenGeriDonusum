@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535996697659",
+    "project_id": "arengeridonusum-3fa41",
+    "storage_bucket": "arengeridonusum-3fa41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535996697659:android:4ead8d650070163beca01e",
+        "android_client_info": {
+          "package_name": "com.project.arengeridonusum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535996697659-cbfjiq7j3ipb45vhq5kjlpgn3svfjsmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCJwDS7Yd5ZUvDM615xfs0VKk3C5jBp40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535996697659-cbfjiq7j3ipb45vhq5kjlpgn3svfjsmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

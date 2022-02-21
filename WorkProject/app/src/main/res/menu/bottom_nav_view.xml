@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/fiyatlar"
+        android:icon="@drawable/fiyat"
+        android:title="Fiyatlar"
+        />
+    <item android:id="@+id/oneri"
+        android:icon="@drawable/oneri"
+        android:title="Şikayet/Öneri"/>
+
+    <item android:id="@+id/iletisim"
+        android:icon="@drawable/iletisim"
+        android:title="İletişim"/>
+
+    <item android:id="@+id/hakkinda"
+        android:icon="@drawable/hakkimda"
+        android:title="Hakkımızda"/>
+</menu>
